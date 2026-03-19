@@ -18,7 +18,7 @@ git clone https://github.com/docker/welcome-to-docker.git
 ls
 ```
 
-Le dossier contient : le `Dockerfile` (la recette de fabrication), `package.son` (les dépendances Node.js), le dossier `src/` (le code React) et `public/` (les fichiers statiques).
+Le dossier contient : le `Dockerfile` (la recette de fabrication), `package.json` (les dépendances Node.js), le dossier `src/` (le code React) et `public/` (les fichiers statiques).
 
 ![Contenu du projet](./images/01_contenu_projet.png)
 
