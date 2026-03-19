@@ -31,7 +31,7 @@ Le Dockerfile est la recette de fabrication de l'image. Chaque instructino à un
 cat Dockerfile
 ```
 
-![Dockerfile](./images/02_Dockerfile.png)
+![Dockerfile](./images/02_dockerfile.png)
 
 ### Explication de chaque instruction
 
