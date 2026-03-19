@@ -89,7 +89,7 @@ docker run -d -p 8088:3000 --name welcome-app welcome-app
 
 Le mapping `-p 8088:3000` redirige le port 8088 de la machine locale vers le port 3000 du conteneur. L'application est accessible via `http://localhost:8088`.
 
-![Page Congratulations](./images/09_page_congratualtions.png)
+![Page Congratulations](./images/09_page_congratulations.png)
 
 ---
 
@@ -100,7 +100,7 @@ Le texte "Congratulations!!!" a été localisé dans le fichier `src/App.js` gr�
 grep -r "Congratulations" src/
 ```
 
-![Grep recherche](./images/10_grep_recherceh_texte.png)
+![Grep recherche](./images/10_grep_recherche_texte.png)
 
 Le texte a été modifié dans `src/App.js`, puis l'image a été reconstruite et le conteneur relancé. La modification n'apparaît qu'après reconstruction — c'est le cycle : **modifier -> reconstruire -> relancer**.
 
@@ -110,7 +110,7 @@ docker build -t welcome-app .
 docker run -d -t 8088:3000 --name welcome-app welcome-app
 ```
 
-![Page modifiée](./images/11_page_modifiée_james.png)
+![Page modifiée](./images/11_page_modifiee_james.png)
 
 ---
 
