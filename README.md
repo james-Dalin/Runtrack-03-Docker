@@ -12,7 +12,7 @@ Exercice pratique sur le cycle de vie complet d'une image Docker : cloner un pro
 
 ## Étape 1 — Cloner explorer le projet
 
-Le projet officiel `docker/welcome-to-docker` a été cloné depuis Github. Il contient le code source d'une aplpication React et un Dockerfile qui décrit comment construire l'image.
+Le projet officiel `docker/welcome-to-docker` a été cloné depuis Github. Il contient le code source d'une application React et un Dockerfile qui décrit comment construire l'image.
 ```
 git clone https://github.com/docker/welcome-to-docker.git
 ls
